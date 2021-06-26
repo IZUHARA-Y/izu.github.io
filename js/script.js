@@ -63,13 +63,15 @@ $(function () {
     $(this).toggleClass('active');
     $('.js-toggle-sp-menu-target').toggleClass('active');
     $('.js-toggle-sp-menu-content').toggleClass('active');
+    $('.js-toggle-sp-menu-button').toggleClass('active');
   });
 
   // ハンバーガーメニュー閉じる
   $('.js-toggle-sp-menu-content').on('click', function () {
-    $(this).removeClass('active');
     $('.js-toggle-sp-menu').removeClass('active');
+    $('.js-toggle-sp-menu-content').removeClass('active');
     $('.js-toggle-sp-menu-target').removeClass('active');
+    $('.js-toggle-sp-menu-button').removeClass('active');
   });
 
 });
