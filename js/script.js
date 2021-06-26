@@ -55,7 +55,7 @@ $(function () {
     newEL.delay(idx * 200);
     newEL.animate({
       opacity: 1
-    }, 1100);
+    }, 11000);
   });
 
   // ハンバーガーメニュー
